@@ -8,7 +8,7 @@ Your post request body should have the field names in your Airtable base, for ex
 
 ```js
 {
-  "Name": "Sam Poder"
+  "Name": "Hacky Hacker"
 }
 
 ```
@@ -25,8 +25,6 @@ In HTML form format this would look something along the lines of:
 
 It's important to note, that you will want to avoid a new page being opened on submit as this will return a JSON object. 
 
-Our version of the proxy is hosted at [`https://airtable-forms-proxy.hackclub.dev`](https://airtable-forms-proxy.hackclub.dev). For non-HQ projects, we recommend your own deployment on Vercel with your own Airtable API key as the `AIRTABLE` environment variable.
+Deployment to Vercel with your Airtable API key as the `AIRTABLE` environment variable.
 
-Happy hacking!
-
-\- Sam
+> 🍴 Fork of [hackclub/airtable-forms-proxy](https://github.com/hackclub/airtable-forms-proxy).
